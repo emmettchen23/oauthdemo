@@ -7,7 +7,7 @@
       <li class="nav-item active">
         <a class="nav-link" href="/">Home</a>
       </li>
-      <%if(user){%>
+
       <li class="nav-item">
         <a class="nav-link" href="/play">Play</a>
       </li>
@@ -20,11 +20,7 @@
       <li class="nav-item">
         <a class="nav-link" href="/opponentCreate">New Opponent</a>
       </li>
-      <%}%>
-
+    
     </ul>
-    <%if(user){%>
-      <small>Logged in as <%=user._json.email%></small>
-      <%}%>
   </div>
 </nav>
